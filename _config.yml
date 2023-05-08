@@ -24,8 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the personal website of Jack Stevenson.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: jackwalkerstevenson
+linkedin_username: jack-stevenson-178178ba
 twitter_username: jackwstevenson
-github_username:  jackwalkerstevenson
 
 # Build settings
 theme: minima
