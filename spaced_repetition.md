@@ -8,7 +8,7 @@ Memorization is a big part of my life. Every day, I spend ~5–15 minutes review
 
 In spaced repetition, you don't just look through your whole deck of flashcards: instead, each of your cards has its own due date, and **you only review the cards that are due today**. Every time you get a card right, the time before its next due date gets longer, so you don't waste your time reviewing facts you already know well.
 
-This makes it possible to have a very large library of flashcards without an overwhelming burden of review time. As of mid-2023, I have a personal library of ~4500 flashcards, but each day I only review ~80.
+This makes it possible to have a very large library of flashcards without spending an overwhelming amount of time reviewing them. As of mid-2023, I have a personal library of ~4500 flashcards, but each day I only review ~75.
 
 Here are some examples of things I use Anki to remember:
 
@@ -23,6 +23,8 @@ Here are some examples of things I use Anki to remember:
 - Concepts I've had to work to understand:
     - Why don't your T cells kill other cells in your body?
     - What's the difference between git merge and git rebase?
+
+It took a while to get used to writing flashcards for more complicated concepts, but it has helped me feel more confident putting in effort to learn new things. I have less fear that I'll just forget them again.
 
 Here are some sources for more information about spaced repetition:
 - [The Wikipedia page](https://en.wikipedia.org/wiki/Spaced_repetition)
