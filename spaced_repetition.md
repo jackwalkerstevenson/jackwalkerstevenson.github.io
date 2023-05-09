@@ -12,15 +12,15 @@ This makes it possible to have a very large library of flashcards without an ove
 
 Here are some examples of things I use Anki to remember:
 
-- Facts that I could look up but I want to have on the tip of my tongue:
+- Facts I could look up but want to have on the tip of my tongue:
     - Phone numbers and birthdays of friends and family
     - Unit conversions. How many grams in a pound?
     - Math identities. log(xy) = log(x) + log(y)
     - What's the difference between serum and plasma?
 - Personal facts, harder to look up:
-    - Who was the person who first taught me how to do mass spec?
-    - What's the name of that excellent tiny variety of mandarins that are hard to find?
-- Concepts that I've had to work to understand:
+    - Who was the person who first taught me how to do proteomics?
+    - What's the name of that great tiny variety of mandarins that are hard to find?
+- Concepts I've had to work to understand:
     - Why don't your T cells kill other cells in your body?
     - What's the difference between git merge and git rebase?
 
