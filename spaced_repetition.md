@@ -40,15 +40,15 @@ Here are some sources for more information about spaced repetition:
 
 #### Reviewing flashcards
 Here is what it looks like when you select a deck in Anki and hit `Study Now`:
-- The front side of a card will appear, along with some numbers about how many cards are due to review and a “Show Answer” button:
+- The front side of a card will appear, along with some numbers about how many cards are due to review and a `Show Answer` button:
 
 ![Front of Anki card](../assets/anki_front.png){: width="70%" }
 
-- Once you hit “Show Answer” (spacebar or Enter on the computer), you’ll get options for how hard the card was for you, which will affect how long it will be before you see the card again. There’s no test—you just have to be honest.
+- Once you hit `Show Answer` (or spacebar or Enter on the computer), you’ll get options for how hard the card was for you, which will affect how long it will be before you see the card again. There’s no test—you just have to be honest.
 
 ![Back of Anki card](../assets/anki_back.png){: width="70%" }
 
-The options are “Again”, “Hard”, “Good,” and “Easy”, but I practically only use “Again” and “Good”. “Again” means that you didn’t know the answer and the card should reset its review interval. “Good” means that you knew the answer and the review interval should get longer. On the computer, these have shortcuts 1–4, and “Good” is the default option, so spacebar or Enter also select “Good”. When I’m reviewing on the computer I’m just hitting Enter for “Good" over and over as I go through cards I know, and when I don’t know one I hit the 1 key for “Again".
+The options are `Again`, `Hard`, `Good`, and `Easy`, but I practically only use `Again` and `Good`. `Again` means that you didn’t know the answer and the card should reset its review interval. `Good` means that you knew the answer and the review interval should get longer. On the computer, these have shortcuts 1–4, and `Good` is the default option, so spacebar or Enter also select `Good`. When I’m reviewing on the computer I’m just hitting Enter for `Good` over and over as I go through cards I know, and when I don’t know one I hit the 1 key for `Again`.
 
 
 #### Making cards
