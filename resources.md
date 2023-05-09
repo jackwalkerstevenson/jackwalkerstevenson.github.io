@@ -13,6 +13,6 @@ Here are some apps that I use every day:
 
 ### Programming
 My experience is mostly in R and Python. Here are some references that I've found particularly useful:
-- [R for Data Science](https://r4ds.hadley.nz/), a great summary of modern R by its modern architech, Hadley Wickham
-- The entire [tidyverse](https://tidyverse.org), an opinionated collection of R packages designed for data science
-- [The Truthful Art](http://www.thefunctionalart.com/p/the-truthful-art-book.html), a book about the fundamentals of data visualization by Alberto Cairo with tons more references
+- [R for Data Science](https://r4ds.hadley.nz/), a great summary of modern R by its modern architech, Hadley Wickham.
+- The entire [tidyverse](https://tidyverse.org), an opinionated collection of R packages designed for data science.
+- [The Truthful Art](http://www.thefunctionalart.com/p/the-truthful-art-book.html), a book about the fundamentals of data visualization by Alberto Cairo. It has tons more references.
