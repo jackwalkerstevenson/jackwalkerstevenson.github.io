@@ -30,7 +30,7 @@ twitter_username: jackwstevenson
 
 header_pages:
   - resources.md
-  - about.md
+  - spaced_repetition.md
 
 # Build settings
 theme: minima
