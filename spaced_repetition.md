@@ -10,20 +10,34 @@ In spaced repetition, you don't just look through your whole deck of flashcards:
 
 This makes it possible to have a very large library of flashcards without an overwhelming burden of review time. As of mid-2023, I have a personal library of ~4500 flashcards, but each day I only review ~80.
 
-Here are some links for more information about spaced repetition:
+Here are some examples of things I use Anki to remember:
+
+- Facts that I could look up but I want to have on the tip of my tongue:
+    - Phone numbers and birthdays of friends and family
+    - Unit conversions. How many grams in a pound?
+    - Math identities. log(xy) = log(x) + log(y)
+    - What's the difference between serum and plasma?
+- Personal facts, harder to look up:
+    - Who was the person who first taught me how to do mass spec?
+    - What's the name of that excellent tiny variety of mandarins that are hard to find?
+- Concepts that I've had to work to understand:
+    - Why don't your T cells kill other cells in your body?
+    - What's the difference between git merge and git rebase?
+
+Here are some sources for more information about spaced repetition:
 - [The Wikipedia page](https://en.wikipedia.org/wiki/Spaced_repetition)
 - [Gwern's deep dive](https://gwern.net/spaced-repetition)
-- [The article](https://augmentingcognition.com/ltm) that put me onto spaced repetition in the first place
-- Some popular alternative implementations: [Supermemo](https://supermemo.com) and [Mnemosyne](https://mnemosyne-proj.org).
+- [Michael Nielsen's "Augmenting Long-term Memory"](http://augmentingcognition.com/ltm), which put me onto spaced repetition in the first place
+- Some popular alternatives to Anki: [Supermemo](https://supermemo.com) and [Mnemosyne](https://mnemosyne-proj.org).
 
-### Using Anki
+### How to use Anki
 1. Make yourself an account on the [Anki website](https://apps.ankiweb.net) and download the desktop Anki app for your computer.
 2. If you want, get the Anki app for your [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki) or [Apple](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) phone. There are other apps available with “Anki” in their names, but as far as I know these are the only real ones that sync with your Anki account. The Android app is free, but the Apple app costs money, so no pressure to install until you decide you really want to make this a habit.
 3. Start making flashcards for things you want to remember! More on this [below](#making-cards).
 4. Review your flashcards. I recommend doing this every day. If you can keep up with your reviews, the number of reviews due per day stays very manageable, but it’s possible to get into an unpleasant cycle of getting behind and then having a frustrating time catching up.
 
-#### Reviewing
-Here is what reviewing looks like when you select a deck and hit `Study Now`:
+#### Reviewing flashcards
+Here is what it looks like when you select a deck in Anki and hit `Study Now`:
 - The front side of a card will appear, along with some numbers about how many cards are due to review and a “Show Answer” button:
 
 ![Front of Anki card](../assets/anki_front.png){: width="70%" }
