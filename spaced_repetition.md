@@ -4,24 +4,24 @@ title: Spaced Repetition
 permalink: /spaced_repetition/
 ---
 ### Overview
-Memorization is a big part of my life. Every day, I spend ~5–15 minutes reviewing flashcards in an app called [Anki](https://apps.ankiweb.net), which is a popular implementation of a technique called **spaced repetition**. Plenty has been written about spaced repetition, so this page is intended as a pratical guide rather than a detailed explanation.
+Memorization is a big part of my life. Every day, I review flashcards in an app called [Anki](https://apps.ankiweb.net), which is a popular implementation of a technique called **spaced repetition**. Plenty has been written about spaced repetition, so this page is intended as a pratical guide rather than a detailed explanation. The point is that with a tool like Anki, **committing something to long-term memory becomes a choice**.
 
-In spaced repetition, you don't just look through your whole deck of flashcards: instead, each of your cards has its own due date, and **you only review the cards that are due today**. Every time you get a card right, the time before its next due date gets longer, so you don't waste your time reviewing facts you already know well.
+In spaced repetition, you don't look through your whole deck of flashcards when you study: instead, each of your cards has its own due date, and **you only review the cards that are due today**. Every time you get a card right, the time before its next due date gets longer, so you don't waste your time reviewing facts you already know well.
 
-This makes it possible to have a very large library of flashcards without spending an overwhelming amount of time reviewing them. As of mid-2023, I have a personal library of ~4500 flashcards, but each day I only review ~75.
+This makes it possible to have a very large library of flashcards without spending an overwhelming amount of time reviewing them. As of mid-2023, I have a personal library of ~4600 flashcards, but each day I only review ~50–150 cards, which takes ~5–15 minutes. If you add cards less aggressively, you can keep your daily review sessions even shorter.
 
 Here are some examples of things I use Anki to remember:
 
 - Facts I could look up but want to have on the tip of my tongue:
     - Phone numbers and birthdays of friends and family
-    - Unit conversions. How many grams in a pound?
-    - Math identities. log(xy) = log(x) + log(y)
+    - Unit conversions: how many grams in a pound?
+    - Math identities: log(xy) = log(x) + log(y)
     - What's the difference between serum and plasma?
 - Personal facts, harder to look up:
     - Who was the person who first taught me how to do proteomics?
     - What's the name of that great tiny variety of mandarins that are hard to find?
 - Concepts I've had to work to understand:
-    - Why don't your T cells kill other cells in your body?
+    - Why don't your T cells kill the other cells in your body?
     - What's the difference between git merge and git rebase?
 
 It took a while to get used to writing flashcards for more complicated concepts, but it has helped me feel more confident putting in effort to learn new things. I have less fear that I'll just forget them again.
@@ -42,11 +42,11 @@ Here are some sources for more information about spaced repetition:
 Here is what it looks like when you select a deck in Anki and hit `Study Now`:
 - The front side of a card will appear, along with some numbers about how many cards are due to review and a `Show Answer` button:
 
-![Front of Anki card](../assets/anki_front.png){: width="70%" }
+![Front of Anki card](../assets/images/anki_front.png){: width="70%" }
 
 - Once you hit `Show Answer` (or spacebar or Enter on the computer), you’ll get options for how hard the card was for you, which will affect how long it will be before you see the card again. There’s no test—you just have to be honest.
 
-![Back of Anki card](../assets/anki_back.png){: width="70%" }
+![Back of Anki card](../assets/images/anki_back.png){: width="70%" }
 
 The options are `Again`, `Hard`, `Good`, and `Easy`, but I practically only use `Again` and `Good`. `Again` means that you didn’t know the answer and the card should reset its review interval. `Good` means that you knew the answer and the review interval should get longer. On the computer, these have shortcuts 1–4, and `Good` is the default option, so spacebar or Enter also select `Good`. When I’m reviewing on the computer I’m just hitting Enter for `Good` over and over as I go through cards I know, and when I don’t know one I hit the 1 key for `Again`.
 
@@ -71,7 +71,7 @@ If you're sure you want to go down the rabbit hole, you can start **messing arou
 
 More complex note types can be useful when you have multiple pieces of information about the same thing. For instance, I have a “Person” note type in which I can enter someone's name, phone number, birthday and address (or leave some of them blank), and then the appropriate flashcards (“What is Jack’s address?”; “Whose birthday is on January 1?”) will be created automatically.
 
-![Person note fields](../assets/anki_person_fields.png){: width="70%" }
+![Person note fields](../assets/images/anki_person_fields.png){: width="70%" }
 
 To help you get started with note types, [here is an Anki deck](../assets/note_type_example.apkg) containing a couple of examples: the Person note type shown above and the Molecule note type that I use for  chemical structures.
 
