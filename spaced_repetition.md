@@ -4,11 +4,11 @@ title: Spaced Repetition
 permalink: /spaced_repetition/
 ---
 ### Overview
-Memorization is a big part of my life. Every day, I review flashcards in an app called [Anki](https://apps.ankiweb.net), which is a popular implementation of a technique called **spaced repetition**. Plenty has been written about spaced repetition, so this page is intended as a pratical guide rather than a detailed explanation. The point is that with a tool like Anki, **committing something to long-term memory becomes a choice**.
+Memorization is a big part of my life. Every day, I review flashcards in an app called [Anki](https://apps.ankiweb.net), which is a popular implementation of a technique called **spaced repetition**. Plenty has been written about spaced repetition, so this page is intended as a quick tutorial rather than a detailed explanation. The point is that with a tool like Anki, **committing something to long-term memory becomes a choice**.
 
 In spaced repetition, you don't look through your whole deck of flashcards when you study: instead, each of your cards has its own due date, and **you only review the cards that are due today**. Every time you get a card right, the time before its next due date gets longer, so you don't waste your time reviewing facts you already know well.
 
-This makes it possible to have a very large library of flashcards without spending an overwhelming amount of time reviewing them. As of mid-2023, I have a personal library of ~4600 flashcards, but each day I only review ~50–150 cards, which takes ~5–15 minutes. If you add cards less aggressively, you can keep your daily review sessions even shorter.
+This makes it possible to have a very large library of flashcards without spending an overwhelming amount of time reviewing them. As of 2024, I have a personal library of ~4600 flashcards, but each day I only review ~50–150 cards, which takes ~5–15 minutes. If you add cards less aggressively, you can keep your daily review sessions even shorter.
 
 Here are some examples of things I use Anki to remember:
 
@@ -30,13 +30,13 @@ Here are some sources for more information about spaced repetition:
 - [The Wikipedia page](https://en.wikipedia.org/wiki/Spaced_repetition)
 - [Gwern's deep dive](https://gwern.net/spaced-repetition)
 - [Michael Nielsen's "Augmenting Long-term Memory"](http://augmentingcognition.com/ltm), which put me onto spaced repetition in the first place
-- Some popular alternatives to Anki: [Supermemo](https://supermemo.com) and [Mnemosyne](https://mnemosyne-proj.org).
+- Some alternative spaced repetition apps besides Anki: [Supermemo](https://supermemo.com) and [Mnemosyne](https://mnemosyne-proj.org).
 
 ### How to use Anki
 1. Make yourself an account on the [Anki website](https://apps.ankiweb.net) and download the desktop Anki app for your computer.
-2. If you want, get the Anki app for your [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki) or [Apple](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) phone. There are other apps available with “Anki” in their names, but as far as I know these are the only real ones that sync with your Anki account. The Android app is free, but the Apple app costs money, so no pressure to install until you decide you really want to make this a habit.
+2. If you want, get the Anki app for your [Android](https://play.google.com/store/apps/details?id=com.ichi2.anki) or [Apple](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) phone. There are other apps available with “Anki” in their names, but as far as I know these are the only real ones that sync with your Anki account. The Android app is free, but the Apple app costs money, so no pressure to install until you decide you want to make this a habit.
 3. Start making flashcards for things you want to remember! More on this [below](#making-cards).
-4. Review your flashcards. I recommend doing this every day. If you can keep up with your reviews, the number of reviews due per day stays very manageable, but it’s possible to get into an unpleasant cycle of getting behind and then having a frustrating time catching up.
+4. Review your flashcards. I recommend doing this every day. If you keep up with your reviews, the number of reviews due per day stays very manageable, but it’s possible to get into an unpleasant cycle of getting behind and then having a frustrating time catching up.
 
 #### Reviewing flashcards
 Here is what it looks like when you select a deck in Anki and hit `Study Now`:
@@ -58,9 +58,10 @@ You might want to put your cards in different decks if you know you might want t
 
 I like to make new cards on the computer rather than the phone because it’s easier to type. Anki has powerful tools for making cards, but you can get 95% of the utility with just the two simplest tools that come preinstalled: **“Basic” and “Cloze”**.
 
-- The Basic note type is just like a physical flashcard: you type in what should be on the “front” and “back”, and then when you review the card later you’ll be shown the front and have to remember what the back says.
-- The Cloze note type is for filling in the blank. Rather than having to type e.g. `Grandma’s phone number is _____` on the front and `Grandma’s phone number is 555-555-5555` on the back, you can just type `Grandma’s phone number is 555-555-5555`, select the phone number and hit the “cloze deletion” button in the little menu above the text box (or Cmd-shift-C on a Mac). This adds special text to the card (which you can also just type in if you prefer), so the resulting text will be {% raw %}`Grandma’s phone number is {{c1::555-555-5555}}`{% endraw %}, which will show you a blank when you review the card later.
-If you want, you can put in multiple deletions—you could do e.g. {% raw %}`{{c2::Grandma’s}} phone number is {{c1::555-555-5555}}`{% endraw %}, so you’ll also be shown `________ phone number is 555-555-5555` and have to remember who the phone number belongs to.
+- The **Basic note type is just like a physical flashcard**: you type in what should be on the “front” and “back”, and then when you review the card later you’ll be shown the front and have to remember what the back says.
+- The **Cloze note type is for filling in the blank**. Rather than having to type e.g. `Grandma’s phone number is _____` on the front and `Grandma’s phone number is 555-555-5555` on the back, you can just type `Grandma’s phone number is 555-555-5555`, select the phone number and hit the “cloze deletion” button in the little menu above the text box (or Cmd-shift-C on a Mac). This adds special text to the card (which you can also just type in if you prefer), so the resulting text will be {% raw %}`Grandma’s phone number is {{c1::555-555-5555}}`{% endraw %}. When you review the card later, you'll see `Grandma's phone number is ____________`.
+
+If you want, you can put in multiple deletions: for instance, you could do {% raw %}`{{c2::Grandma’s}} phone number is {{c1::555-555-5555}}`{% endraw %}, so you’ll also be shown `________ phone number is 555-555-5555`.
 
 
 #### Advanced features
@@ -69,7 +70,7 @@ I will quote [Michael Nielsen](https://augmentingcognition.com/ltm) directly her
 
 If you're sure you want to go down the rabbit hole, you can start **messing around with note types**. You may have noticed that I referred to Basic and Cloze as “tools for making cards” or “note types” rather than just flashcards. This is because Anki actually has you enter the information you want to remember in the form of a “note” (what a database person would call a "record") and then uses rules to generate the flashcards that you actually review.
 
-More complex note types can be useful when you have multiple pieces of information about the same thing. For instance, I have a “Person” note type in which I can enter someone's name, phone number, birthday and address (or leave some of them blank), and then the appropriate flashcards (“What is Jack’s address?”; “Whose birthday is on January 1?”) will be created automatically.
+More complex note types can be useful when you have multiple pieces of information about the same thing. For instance, I have a “Person” note type in which I can enter someone's name, phone number, birthday and address (or leave some of them blank), and then the appropriate flashcards (“What is Jack’s address?”; “Whose birthday is on January 1?”) will be created automatically. You could always just type out each of these as a separate Basic card—it would just be a little slower and harder to keep them all consistent.
 
 ![Person note fields](../assets/images/anki_person_fields.png){: width="70%" }
 
