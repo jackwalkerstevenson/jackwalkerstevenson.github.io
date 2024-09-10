@@ -74,13 +74,13 @@ Think I should be different? Think this website should be different? I want to k
         let result = await response.json();
         
         if (response.ok) {
-          updateStatus("Thanks for your submission!");
+          updateStatus("Sent");
           form.reset();
         } else {
-          updateStatus(result.errors ? result.errors.map(error => error.message).join(", ") : "Oops! There was a problem submitting your form", true);
+          updateStatus(result.errors ? result.errors.map(error => error.message).join(", ") : "Form error. Please send an email instead. ", true);
         }
       } catch (error) {
-        updateStatus("Oops! There was a problem submitting your form: " + error.message, true);
+        updateStatus("Form error. Please send an email instead. " + error.message, true);
       }
     }
     
